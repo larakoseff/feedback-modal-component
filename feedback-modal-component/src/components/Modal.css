@@ -1,0 +1,103 @@
+.modal--container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1a1832;
+  color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 920px;
+  height: 444px;
+}
+
+.modal--header {
+  display: flex;
+  justify-content: end;
+}
+
+.close--icon {
+  width: 17px;
+  cursor: pointer;
+}
+
+
+.btn {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  width: 144px;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.btn--submit {
+  background-color: #7a58f4;
+  border: none;
+}
+
+.btn--cancel {
+  background-color: transparent;
+  border: #7a58f4 solid 1px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.rating--container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating--text {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #e7e7e7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn--ratings {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: #b1b9d8;
+  font-size: 28px;
+  background-color: #1a2036;
+  border: #2e3650 solid 1px;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.modal--footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
