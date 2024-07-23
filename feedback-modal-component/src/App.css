@@ -5,6 +5,19 @@
   text-align: center;
 }
 
+.btn--open {
+  background-color: #7a58f4;
+  border: none;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  width: 144px;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
 
 .card {
   padding: 2em;

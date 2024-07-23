@@ -1,7 +1,7 @@
 import React from "react";
 import "./Modal.css";
 
-export const Modal = () => {
+export const Modal = ({onSubmit, onCancel, onClose}) => {
   return (
     <div className="modal--container">
       <div className="modal">
@@ -10,6 +10,7 @@ export const Modal = () => {
             src="../images/close-white.svg"
             className="close--icon"
             alt="close icon"
+            onClick={() => onClose()}
           />
         </div>
         <div className="modal--content">
@@ -36,8 +37,8 @@ export const Modal = () => {
           </div>
         </div>
         <div className="modal--footer">
-          <button className="btn btn--cancel">Cancel</button>
-          <button className="btn btn--submit">Submit</button>
+          <button className="btn btn--cancel" onClick={() => onCancel()}>Cancel</button>
+          <button className="btn btn--submit" onClick={() => onSubmit()}>Submit</button>
         </div>
       </div>
     </div>
